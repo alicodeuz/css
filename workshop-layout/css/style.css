@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.col-left,
+.col-right {
+    float: left;
+    border: 1px solid
+}
+
+aside,
+section {
+    border: 1px solid;
+    float: left;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+aside {
+    width: 250px;
+}
+
+section {
+    width: calc(100% - 250px);
+}
+
+#profile-image {
+    border: 1px solid;
+    border-radius: 50%;
+}

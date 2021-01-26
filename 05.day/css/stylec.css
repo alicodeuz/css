@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Homemade Apple', cursive; */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+.btn-group-item.active {
+    color: red;
+}
+
+.btn-group-item {
+    padding: 7px 21px;
+    margin: 0 7px;
+    font-size: 16px;
+}
+
+.sub-title {
+    font-size: 36px;
+    font-family: "Zo'r Font", cursive;
+}
+
+p {
+    font-family: 'Homemade Apple', cursive;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+@font-face {
+    font-family: "Zo'r Font";
+    src: url(../fonts/Snowy\ Christmas\ -\ Personal\ Use.otf) format("otf");
+}

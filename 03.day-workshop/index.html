@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section id="auth">
+        <h1 class="text-white">User Login from widget</h1>
+        <div class="col-left w-50">
+            <h3 class="text-white">Login form</h3>
+            <img src="img/profile.png" alt="User profile">
+            <form action="#" method="POST">
+                <input type="email" class="form-input" name="email" placeholder="Your email">
+                <input type="password" class="form-input" name="password" placeholder="Your password">
+                <div class="link-container">
+                    <span>
+						<input type="checkbox" name="remember_me" value="true" id="remember-me">
+						<label for="remember-me" class="text-grey">Remember me</label>
+					</span>
+                    <a href="#recover-password" class="text-white">Forgot password</a>
+                </div>
+                <button class="btn ">Login</button>
+                <a href="#sign-up" class="text-white">Create a new account</a>
+                <div class="text-white">(or)</div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter" style="color: #5ebaf0;"></i></a>
+                    <a href="#"><i class="fab fa-facebook" style="color: #4b69ac;"></i></a>
+                    <a href="#"><i class="fab fa-telegram" style="color: #30a8f0;"></i></a>
+                </div>
+            </form>
+        </div>
+        <div class="col-right w-50">
+            <h3 class="text-white">Login form</h3>
+            <input type="text" class="form-input" name="first_name" placeholder="First name">
+            <input type="text" class="form-input" name="last_name" placeholder="Last name">
+            <input type="email" class="form-input" name="email" placeholder="Your email">
+            <input type="password" class="form-input" name="password" placeholder="Your password">
+            <input type="password" class="form-input" name="password" placeholder="Confirm password">
+            <input type="tel" class="form-input" name="phone" placeholder="Phone number">
+            <div class="link-container">
+                <span class="text-grey">
+					<input type="checkbox" name="terms_agree" value="true" id="terms_agree">
+					<label for="terms_agree">I am agree to</label>
+					<a href="#terms" class="text-white">Terms</a> and 
+					<a href="#privacy" class="text-white">Privacy Policy</a>
+				</span>
+            </div>
+            <button class="btn">Sign Up</button>
+        </div>
+    </section>
+    <footer>
+        <p class="text-white">&copy; 2021 User login form widget. <a href="www.alitech.uz" class="text-white">Alitech</a></p>
+    </footer>
+</body>
+
+</html>
