@@ -1,0 +1,26 @@
+@keyframes heart-beat {
+    /* animation-fill-mode: backwards */
+    0% {
+        font-size: 20px;
+        color: rgb(245, 210, 234);
+    }
+    50% {
+        font-size: 140px;
+        color: red;
+    }
+    /* animation-fill-mode: forwards */
+    100% {
+        font-size: 20px;
+        color: rgb(245, 210, 234);
+    }
+}
+
+#heart {
+    font-size: 90px;
+    /*animation-iteration-count: infinite;
+    animation-name: heart-beat;
+    animation-duration: 1s;
+    animation-direction: alternate-reverse;
+    */
+    animation: heart-beat 1s linear 2s infinite alternate-reverse both;
+}
